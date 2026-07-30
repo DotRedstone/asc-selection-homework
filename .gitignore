@@ -1,0 +1,38 @@
+# Build outputs
+build/
+dist/
+*.o
+*.out
+*.exe
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Logs and temporary runtime files
+*.tmp
+*.bak
+.cache/
+
+# Large datasets, models and archives
+data/
+datasets/
+models/
+weights/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.mp4
+*.avi
+*.mov
+*.tar
+*.tar.gz
+*.zip
+*.7z
+
+# Local generated package
+submission_package/
